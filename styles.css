@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f5f5f5;
+  }
+  
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .controls {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  #searchInput {
+    padding: 10px;
+    width: 200px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .overdue {
+    background-color: #ffe6e6;
+  }
